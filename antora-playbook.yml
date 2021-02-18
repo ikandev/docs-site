@@ -8,43 +8,43 @@ content:
     # ALM Reports
     #---------    
   - url: https://github.com/ikandev/docs-general
-    branches: main
+    branches: 5.8
     start_path: /alm-reports/alm-reports-linux
   - url: https://github.com/ikandev/docs-general
-    branches: main
+    branches: 5.8
     start_path: /alm-reports/alm-reports-windows 
     #---------
     # ALM User Guide
     #---------    
   - url: https://github.com/ikandev/docs-general
-    branches: main
+    branches: 5.8
     start_path: /user-guide/user-guide-en   
   - url: https://github.com/ikandev/docs-general
-    branches: main
+    branches: 5.8
     start_path: /user-guide/user-guide-fr   
     #---------
     # Demo Installation Guide
     #---------    
   - url: https://github.com/ikandev/docs-general
-    branches: main
+    branches: 5.8
     start_path: /demo-installation-guide/demo-installation-guide-linux-en     
   - url: https://github.com/ikandev/docs-general
-    branches: main
+    branches: 5.8
     start_path: /demo-installation-guide/demo-installation-guide-linux-fr  
   - url: https://github.com/ikandev/docs-general
-    branches: main
+    branches: 5.8
     start_path: /demo-installation-guide/demo-installation-guide-windows-en         
   - url: https://github.com/ikandev/docs-general
-    branches: main
+    branches: 5.8
     start_path: /demo-installation-guide/demo-installation-guide-windows-fr
     #---------
     # Getting Started
     #---------    
   - url: https://github.com/ikandev/docs-general
-    branches: main
+    branches: 5.8
     start_path: /getting-started/getting-started-en   
   - url: https://github.com/ikandev/docs-general
-    branches: main
+    branches: 5.8
     start_path: /getting-started/getting-started-fr 
     #---------
     # How to Guides
@@ -86,19 +86,19 @@ content:
     # Installation Guide
     #---------    
   - url: https://github.com/ikandev/docs-general
-    branches: main
+    branches: 5.8
     start_path: /installation-guide/installation-guide-en    
   - url: https://github.com/ikandev/docs-general
-    branches: main
+    branches: 5.8
     start_path: /installation-guide/installation-guide-fr      
     #---------
     # Technical Sheet
     #---------    
   - url: https://github.com/ikandev/docs-general
-    branches: main
+    branches: 5.8
     start_path: /technical-sheet/technical-sheet-en   
   - url: https://github.com/ikandev/docs-general
-    branches: main
+    branches: 5.8
     start_path: /technical-sheet/technical-sheet-fr                        
 ui:   
   bundle:
