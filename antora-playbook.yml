@@ -1,0 +1,114 @@
+site:
+  title: IKAN ALM Documentation
+  url: https://docs.ikanalm.com
+  start_page: user-guide-en::Introduction.adoc
+content:
+  sources:    
+    #---------
+    # ALM Reports
+    #---------    
+  - url: https://github.com/ikandev/docs-general
+    branches: main
+    start_path: /alm-reports/alm-reports-linux
+  - url: https://github.com/ikandev/docs-general
+    branches: main
+    start_path: /alm-reports/alm-reports-windows 
+    #---------
+    # ALM User Guide
+    #---------    
+  - url: https://github.com/ikandev/docs-general
+    branches: main
+    start_path: /user-guide/user-guide-en   
+  - url: https://github.com/ikandev/docs-general
+    branches: main
+    start_path: /user-guide/user-guide-fr   
+    #---------
+    # Demo Installation Guide
+    #---------    
+  - url: https://github.com/ikandev/docs-general
+    branches: main
+    start_path: /demo-installation-guide/demo-installation-guide-linux-en     
+  - url: https://github.com/ikandev/docs-general
+    branches: main
+    start_path: /demo-installation-guide/demo-installation-guide-linux-fr  
+  - url: https://github.com/ikandev/docs-general
+    branches: main
+    start_path: /demo-installation-guide/demo-installation-guide-windows-en         
+  - url: https://github.com/ikandev/docs-general
+    branches: main
+    start_path: /demo-installation-guide/demo-installation-guide-windows-fr
+    #---------
+    # Getting Started
+    #---------    
+  - url: https://github.com/ikandev/docs-general
+    branches: main
+    start_path: /getting-started/getting-started-en   
+  - url: https://github.com/ikandev/docs-general
+    branches: main
+    start_path: /getting-started/getting-started-fr 
+    #---------
+    # How to Guides
+    #---------    
+  - url: https://github.com/ikandev/docs-how-to
+    branches: main
+    start_path: /how-to-agentinstall-en       
+  - url: https://github.com/ikandev/docs-how-to
+    branches: main
+    start_path: /how-to-agentinstall-fr    
+  - url: https://github.com/ikandev/docs-how-to
+    branches: main
+    start_path: /how-to-tomcatinstall-en   
+  - url: https://github.com/ikandev/docs-how-to
+    branches: main
+    start_path: /how-to-tomcatinstall-fr  
+  - url: https://github.com/ikandev/docs-how-to-phases
+    branches: main
+    start_path: /how-to-use-and-develop-phases-en     
+  - url: https://github.com/ikandev/docs-how-to-phases
+    branches: main
+    start_path: /how-to-use-and-develop-phases-fr
+  - url: https://github.com/ikandev/docs-how-to-phases
+    branches: main
+    start_path: /how-to-phase-parameters
+    #---------
+    # Integrations
+    #---------    
+  - url: https://github.com/ikandev/docs-integrations-sap
+    branches: main
+    start_path: /sap-installation   
+  - url: https://github.com/ikandev/docs-integrations-sap
+    branches: main
+    start_path: /sap-technical   
+  - url: https://github.com/ikandev/docs-integrations-sap
+    branches: main
+    start_path: /sap-user-guide   
+    #---------
+    # Installation Guide
+    #---------    
+  - url: https://github.com/ikandev/docs-general
+    branches: main
+    start_path: /installation-guide/installation-guide-en    
+  - url: https://github.com/ikandev/docs-general
+    branches: main
+    start_path: /installation-guide/installation-guide-fr      
+    #---------
+    # Technical Sheet
+    #---------    
+  - url: https://github.com/ikandev/docs-general
+    branches: main
+    start_path: /technical-sheet/technical-sheet-en   
+  - url: https://github.com/ikandev/docs-general
+    branches: main
+    start_path: /technical-sheet/technical-sheet-fr                        
+ui:   
+  bundle:
+    url: /home/ubuntu/ikan-documentation-project/docs-ui/build/ui-bundle.zip
+    # snapshot should be set in order to fetch the UI bundle on each website generation (OR by using the CLI attribute --fetch option), otherwise it will use the cached version
+    snapshot: true
+output:
+  destinations:
+  - provider: fs
+    path: ./sites
+runtime:
+  #cache_dir: ./cache/antora
+  fetch: true

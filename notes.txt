@@ -1,0 +1,11 @@
+Playbook to build the documentation project (Antora).
+
+Can be built whith or without the search option, hence the 2 playbook files.
+
+To build the documentation with the Lunr search option you need to provide additional arguments to the command:
+e.g. 'DOCSEARCH_ENABLED=true DOCSEARCH_ENGINE=lunr antora antora-playbook-with-search.yml'
+Note: Optionally add the following line to only index the latest versions: 'DOCSEARCH_INDEX_VERSION=latest'
+
+Supplemental UI folder holds the necessary files to implement the Lunr search option.
+
+Beware that some files in the partials folder will overwrite the corresponding original partials from the main UI project (docs-ui).
