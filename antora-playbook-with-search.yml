@@ -81,7 +81,10 @@ content:
     start_path: /sap-technical   
   - url: https://github.com/ikandev/docs-integrations-sap
     branches: main
-    start_path: /sap-user-guide   
+    start_path: /sap-user-guide 
+  - url: https://github.com/ikandev/docs-integrations-websphere
+    branches: main
+    start_path: /websphere-phases-catalog         
     #---------
     # Installation Guide
     #---------    
