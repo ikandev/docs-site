@@ -102,7 +102,13 @@ content:
     start_path: /technical-sheet/technical-sheet-en   
   - url: https://github.com/ikandev/docs-general
     branches: '5.8'
-    start_path: /technical-sheet/technical-sheet-fr                        
+    start_path: /technical-sheet/technical-sheet-fr   
+    #---------
+    # Data Model
+    #---------    
+  - url: https://github.com/ikandev/docs-general
+    branches: '5.8'
+    start_path: /data-model                         
 ui:   
   bundle:
     url: /home/ubuntu/ikan-documentation-project/docs-ui/build/ui-bundle.zip
