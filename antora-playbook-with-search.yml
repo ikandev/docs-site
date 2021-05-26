@@ -17,10 +17,10 @@ content:
     # ALM User Guide
     #---------    
   - url: https://github.com/ikandev/docs-general
-    branches: '5.8'
+    branches: ['5.8', '5.9']
     start_path: /user-guide/user-guide-en   
   - url: https://github.com/ikandev/docs-general
-    branches: '5.8'
+    branches: ['5.8', '5.9']
     start_path: /user-guide/user-guide-fr   
     #---------
     # Demo Installation Guide
