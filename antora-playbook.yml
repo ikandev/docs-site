@@ -70,6 +70,12 @@ content:
   - url: https://github.com/ikandev/docs-how-to-phases
     branches: main
     start_path: /how-to-phase-parameters
+  - url: https://github.com/ikandev/docs-how-to
+    branches: '5.9'
+    start_path: /how-to-ui-agentinstall-en       
+  - url: https://github.com/ikandev/docs-how-to
+    branches: '5.9'
+    start_path: /how-to-ui-agentinstall-fr      
     #---------
     # Integrations
     #---------    
