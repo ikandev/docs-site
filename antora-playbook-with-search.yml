@@ -90,7 +90,10 @@ content:
     start_path: /sap-user-guide 
   - url: https://github.com/ikandev/docs-integrations-websphere
     branches: main
-    start_path: /websphere-phases-catalog         
+    start_path: /websphere-phases-catalog
+  - url: https://github.com/ikandev/docs-integrations-zos
+    branches: ['1.0', '2.1']
+    start_path: /zos-phases-catalog          
     #---------
     # Installation Guide
     #---------    
