@@ -75,7 +75,13 @@ content:
     start_path: /how-to-ui-agentinstall-en       
   - url: https://github.com/ikandev/docs-how-to
     branches: '5.9'
-    start_path: /how-to-ui-agentinstall-fr    
+    start_path: /how-to-ui-agentinstall-fr   
+  - url: https://github.com/ikandev/docs-how-to
+    branches: main
+    start_path: /how-to-jira-integration-en  
+  - url: https://github.com/ikandev/docs-how-to
+    branches: main
+    start_path: /how-to-jira-integration-fr      
     #---------
     # Integrations
     #---------    
