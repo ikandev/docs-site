@@ -129,7 +129,13 @@ content:
     #---------    
   - url: https://github.com/ikandev/docs-general
     branches: ['5.8', '5.9']
-    start_path: /whats-new                            
+    start_path: /whats-new   
+    #---------
+    # REST API
+    #---------    
+  - url: https://github.com/ikandev/docs-general
+    branches: '5.9'
+    start_path: /rest-api                              
 ui:   
   bundle:
     url: /home/ubuntu/ikan-documentation-project/docs-ui/build/ui-bundle.zip
