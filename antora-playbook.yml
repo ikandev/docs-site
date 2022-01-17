@@ -104,7 +104,7 @@ content:
     # Installation Guide
     #---------    
   - url: https://github.com/ikandev/docs-general
-    branches: '5.8'
+    branches: ['5.8', '5.9']
     start_path: /installation-guide/installation-guide-en    
   - url: https://github.com/ikandev/docs-general
     branches: '5.8'
@@ -113,7 +113,7 @@ content:
     # Technical Sheet
     #---------    
   - url: https://github.com/ikandev/docs-general
-    branches: '5.8'
+    branches: ['5.8', '5.9']
     start_path: /technical-sheet/technical-sheet-en   
   - url: https://github.com/ikandev/docs-general
     branches: '5.8'
