@@ -84,7 +84,7 @@ content:
     start_path: /how-to-jira-integration-fr 
   - url: https://github.com/ikandev/docs-how-to
     branches: '5.9'
-    start_path: /how-to-clear-browsercache-en          
+    start_path: /how-to-clear-browsercache
     #---------
     # Integrations
     #---------    
