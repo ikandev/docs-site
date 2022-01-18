@@ -50,16 +50,16 @@ content:
     # How to Guides
     #---------    
   - url: https://github.com/ikandev/docs-how-to
-    branches: main
+    branches: '5.8'
     start_path: /how-to-agentinstall-en       
   - url: https://github.com/ikandev/docs-how-to
-    branches: main
+    branches: '5.8'
     start_path: /how-to-agentinstall-fr    
   - url: https://github.com/ikandev/docs-how-to
-    branches: ['5.8', '5.9']
+    branches: '5.8'
     start_path: /how-to-tomcatinstall-en   
   - url: https://github.com/ikandev/docs-how-to
-    branches: main
+    branches: '5.8'
     start_path: /how-to-tomcatinstall-fr  
   - url: https://github.com/ikandev/docs-how-to-phases
     branches: main
@@ -81,7 +81,10 @@ content:
     start_path: /how-to-jira-integration-en  
   - url: https://github.com/ikandev/docs-how-to
     branches: main
-    start_path: /how-to-jira-integration-fr      
+    start_path: /how-to-jira-integration-fr 
+  - url: https://github.com/ikandev/docs-how-to
+    branches: '5.9'
+    start_path: /how-to-clear-browsercache-en          
     #---------
     # Integrations
     #---------    
