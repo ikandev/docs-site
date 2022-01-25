@@ -77,14 +77,17 @@ content:
     branches: '5.9'
     start_path: /how-to-ui-agentinstall-fr   
   - url: https://github.com/ikandev/docs-how-to
-    branches: main
+    branches: '5.9'
     start_path: /how-to-jira-integration-en  
   - url: https://github.com/ikandev/docs-how-to
     branches: main
     start_path: /how-to-jira-integration-fr   
   - url: https://github.com/ikandev/docs-how-to
     branches: '5.9'
-    start_path: /how-to-clear-browsercache      
+    start_path: /how-to-clear-browsercache 
+  - url: https://github.com/ikandev/docs-how-to
+    branches: '5.9'
+    start_path: /how-to-github-integration-en           
     #---------
     # Integrations
     #---------    
@@ -110,7 +113,7 @@ content:
     branches: ['5.8', '5.9']
     start_path: /installation-guide/installation-guide-en    
   - url: https://github.com/ikandev/docs-general
-    branches: '5.8'
+    branches: ['5.8', '5.9']
     start_path: /installation-guide/installation-guide-fr      
     #---------
     # Technical Sheet
@@ -119,7 +122,7 @@ content:
     branches: ['5.8', '5.9']
     start_path: /technical-sheet/technical-sheet-en   
   - url: https://github.com/ikandev/docs-general
-    branches: '5.8'
+    branches: ['5.8', '5.9']
     start_path: /technical-sheet/technical-sheet-fr   
     #---------
     # Data Model
