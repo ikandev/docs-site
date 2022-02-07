@@ -135,7 +135,10 @@ content:
     #---------    
   - url: https://github.com/ikandev/docs-general
     branches: ['5.8', '5.9']
-    start_path: /whats-new   
+    start_path: /whats-new/whats-new-en 
+  - url: https://github.com/ikandev/docs-general
+    branches: '5.9'
+    start_path: /whats-new/whats-new-fr       
     #---------
     # REST API
     #---------    
