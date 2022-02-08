@@ -72,22 +72,28 @@ content:
     start_path: /how-to-phase-parameters
   - url: https://github.com/ikandev/docs-how-to
     branches: '5.9'
-    start_path: /how-to-ui-agentinstall-en       
+    start_path: /how-to-ui-agentinstall/how-to-ui-agentinstall-en       
   - url: https://github.com/ikandev/docs-how-to
     branches: '5.9'
-    start_path: /how-to-ui-agentinstall-fr   
+    start_path: /how-to-ui-agentinstall/how-to-ui-agentinstall-fr   
   - url: https://github.com/ikandev/docs-how-to
     branches: '5.9'
-    start_path: /how-to-jira-integration-en  
-  - url: https://github.com/ikandev/docs-how-to
-    branches: main
-    start_path: /how-to-jira-integration-fr 
+    start_path: /how-to-jira-integration/how-to-jira-integration-en  
   - url: https://github.com/ikandev/docs-how-to
     branches: '5.9'
-    start_path: /how-to-clear-browsercache
+    start_path: /how-to-jira-integration/how-to-jira-integration-fr 
   - url: https://github.com/ikandev/docs-how-to
     branches: '5.9'
-    start_path: /how-to-github-integration-en      
+    start_path: /how-to-clear-browsercache/how-to-clear-browsercache-en
+  - url: https://github.com/ikandev/docs-how-to
+    branches: '5.9'
+    start_path: /how-to-clear-browsercache/how-to-clear-browsercache-fr    
+  - url: https://github.com/ikandev/docs-how-to
+    branches: '5.9'
+    start_path: /how-to-github-integration/how-to-github-integration-en     
+  - url: https://github.com/ikandev/docs-how-to
+    branches: '5.9'
+    start_path: /how-to-github-integration/how-to-github-integration-fr       
     #---------
     # Integrations
     #---------    
