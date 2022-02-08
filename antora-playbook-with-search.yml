@@ -63,10 +63,10 @@ content:
     start_path: /how-to-tomcatinstall-fr  
   - url: https://github.com/ikandev/docs-how-to-phases
     branches: main
-    start_path: /how-to-use-and-develop-phases-en     
+    start_path: /how-to-use-and-develop-phases/how-to-use-and-develop-phases-en     
   - url: https://github.com/ikandev/docs-how-to-phases
     branches: main
-    start_path: /how-to-use-and-develop-phases-fr
+    start_path: /how-to-use-and-develop-phases/how-to-use-and-develop-phases-fr
   - url: https://github.com/ikandev/docs-how-to-phases
     branches: main
     start_path: /how-to-phase-parameters
