@@ -11,7 +11,7 @@ content:
     branches: '5.8'
     start_path: /alm-reports/alm-reports-linux
   - url: https://github.com/ikandev/docs-general
-    branches: '5.8'
+    branches: ['5.8', '5.9']
     start_path: /alm-reports/alm-reports-windows 
     #---------
     # ALM User Guide
