@@ -111,7 +111,10 @@ content:
     start_path: /websphere-phases-catalog
   - url: https://github.com/ikandev/docs-integrations-zos
     branches: ['1.0', '2.1']
-    start_path: /zos-phases-catalog        
+    start_path: /zos-phases-catalog      
+  - url: https://github.com/ikandev/docs-integrations-zos
+    branches: main
+    start_path: /zos-krc/krc-installation-guide         
     #---------
     # Installation Guide
     #---------    
